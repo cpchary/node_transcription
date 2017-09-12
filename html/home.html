@@ -1,0 +1,171 @@
+<div ng-controller="homeController" ng-init = "new()">
+<!--<div class="row">-->
+    
+    
+<div class="container borders max-height">
+  <div class="row">
+    <div class="col-8 align-items-start border-right">
+     
+        <div>{{totaltranscription}}</div>
+        
+        {{notSelected}}
+        
+ 
+
+
+<!-- Modal -->
+  
+        
+        
+      <div ng-if="alert">
+        
+        <pop-up start-value='beginIndex' end-value='endIndex' text='selectedText' close-me="closeAlert()"></pop-up>
+          
+        
+        </div>  
+        
+        {{selectedText}}
+   
+        <div ng-hide="notSelected">
+        
+         
+        {{beginIndex}}
+        {{endIndex}}
+        
+        </div>
+        
+    </div>
+      
+      
+    <div class="col-4 align-items-end max-height">
+      <div class="row align-items-start equal-height">
+        
+        
+         <span style="opacity: 0.5">{{interim_span}}</span>
+        
+        
+        </div>
+        <div class="row align-items-center equal-height"> 
+        
+            <div class="col-3 align-items-start">
+            </div>
+            <div class="col-3 align-items-start">
+    
+                
+                
+                <button class="btn btn-primary btn-lg" ng-click="start()">Start</button>
+
+              
+            </div>
+        
+            <div class="col-3 align-items-start"> <button class="btn btn-danger btn-lg" ng-click="stop()">Stop</button> </div>
+        
+        
+        
+        </div>
+        <div class="row align-items-start equal-height">
+        
+               
+            <div class="col align-items-start"> <a href="#" class="badge badge-primary">Tag1</a></div>
+             <div class="col align-items-start"><a href="#" class="badge badge-secondary">Tag2</a></div>
+            <div class="col align-items-start"><a href="#" class="badge badge-success">Tag3</a></div>
+            <div class="col align-items-start"><a href="#" class="badge badge-danger">Tag3</a></div>
+            <div class="col align-items-start"><a href="#" class="badge badge-warning">Tag4</a></div>
+            <div class="col align-items-start"><a href="#" class="badge badge-info">Tag5</a></div>
+            
+            
+            
+        </div>
+    </div>
+    </div>
+    </div>
+    
+</div> 
+    
+
+    
+    
+<!--
+    
+    
+    
+  <div class="row align-items-center">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+  <div class="row align-items-end">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="col-8 max-height">
+        <span>{{transcription}}</span> <span style="opacity: 0.5">{{interim_span}}</span>
+    </div>
+    <div class="col-4 max-height border-left">
+  
+        <div class="row equal-height">
+       
+    </div>
+         <div class="row equal-height" >
+       
+             <div class="col" style="margin-left: 20%;margin-top: 25%;"><button class="btn btn-primary btn-lg" ng-click="start()">Start</button></div>
+             <div class="col" style="margin-top: 25%;"><button class="btn btn-danger btn-lg" ng-click="stop()">Stop</button></div>  
+             
+        </div>
+     
+        
+         <div class="row equal-height">
+             
+             <button type="button" class="tags btn btn-outline-secondary btn-sm">Tag1</button>
+             <button type="button" class="tags btn btn-outline-secondary btn-sm">Tag2</button>
+             <button type="button" class="tags btn btn-outline-secondary btn-sm">Tag3</button>
+            
+       
+    </div>
+   
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+    
+    
+    
+    
+    
+</div>-->

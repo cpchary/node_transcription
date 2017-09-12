@@ -1,0 +1,32 @@
+<div class="modal fade show"  style="display: block;">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" ng-click="closeMe()">&times;</button>
+        <h4 class="modal-title">Tag Confirmation</h4>
+      </div>
+      <div class="modal-body">
+        <p>Index Strating Value:  {{startValue}}</p>
+          <p>Index Ending Value:  {{endValue}}</p>
+        {{text}}
+         
+    
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="closeMe()">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="modal-backdrop fade show"></div>  
+        
+      
+<!--
+
+<div class="alert">
+  <a href class="close" ng-click="close()">&times;</a>
+  <div ng-transclude></div>
+</div>-->
